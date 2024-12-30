@@ -13,10 +13,10 @@
                 <span class="result-text"></span>
             </div>
             <div class="row grey">
-                <button class="btn">+</button>
-                <button class="btn">-</button>
-                <button class="btn">x</button>
-                <button class="btn">/</button>
+                <button class="btn" onclick="onOperationPressed('+')">+</button>
+                <button class="btn" onclick="onOperationPressed('-')">-</button>
+                <button class="btn" onclick="onOperationPressed('x')">x</button>
+                <button class="btn" onclick="onOperationPressed('/')">/</button>
             </div>
             <div class="main-btns">
                 <div class="numbers">
@@ -38,10 +38,10 @@
                     <div class="row">
                         <button class="btn" onclick="onNumberPressed(0)">0</button>
                         <button class="btn" onclick="onNumberPressed('.')">.</button>
-                        <button class="btn">C</button>
+                        <button class="btn" onclick="onOperationPressed('C')">C</button>
                     </div>
                 </div>
-                <button class="btn equal-btn">=</button>
+                <button class="btn equal-btn" onclick="onOperationPressed('=')">=</button>
             </div>
         </div>
         <script src="script.js"></script>
