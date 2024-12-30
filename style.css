@@ -26,8 +26,37 @@ border-radius: 2px;
     display: flex;
     height: 30px;
     gap: 5px;
+    margin-top: 10px;
 }
 
 .btn {
     flex: 1;
+    background-color: gainsboro;
+    border: 1px solid gray;
+}
+
+.grey button {
+    background-color: darkgray;
+}
+
+.btn:hover {
+opacity: 80%;
+}
+
+.btn:active {
+    background-color: slategray;
+}
+
+.main-btns {
+    display: flex;
+    gap: 5px;
+}
+
+.numbers {
+    flex: 4;
+}
+
+.equal-btn {
+    flex: 1;
+    margin-top: 10px;
 }
